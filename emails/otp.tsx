@@ -6,7 +6,7 @@ interface OTPEmailProps {
   title: string
 }
 
-const logoUrl = ''
+const logoUrl = 'https://duthanhduoc.com/_next/image?url=%2Fimg%2Fme.jpg&w=1080&q=75'
 
 export const OTPEmail = ({ otpCode, title }: OTPEmailProps) => (
   <Html>
@@ -23,7 +23,7 @@ export const OTPEmail = ({ otpCode, title }: OTPEmailProps) => (
         </Section>
         <Text style={paragraph}>Nếu bạn không chủ động thực hiện hành động này, xin hãy bỏ qua email?</Text>
       </Container>
-      <Text style={footer}>From Quang Huy with ❤️.</Text>
+      <Text style={footer}>From Được Edu with ❤️.</Text>
     </Body>
   </Html>
 )
