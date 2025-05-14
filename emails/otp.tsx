@@ -6,7 +6,7 @@ interface OTPEmailProps {
   title: string
 }
 
-const logoUrl = 'https://duthanhduoc.com/_next/image?url=%2Fimg%2Fme.jpg&w=1080&q=75'
+const logoUrl = ''
 
 export const OTPEmail = ({ otpCode, title }: OTPEmailProps) => (
   <Html>
